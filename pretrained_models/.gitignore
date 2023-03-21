@@ -1,0 +1,6 @@
+bird_stylegan.pt
+flower_stylegan.pt
+birds.pkl
+flower.pkl
+u2net.pth
+vgg16.pt

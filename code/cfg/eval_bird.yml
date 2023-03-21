@@ -1,0 +1,32 @@
+CONFIG_NAME: 'LFR-GAN'
+
+DATASET_NAME: 'birds'
+DATA_DIR: 'datasets/birds'
+GPU_ID: 1
+WORKERS: 1
+
+B_VALIDATION: True  # True  # False
+TREE:
+    BRANCH_NUM: 3
+
+
+TRAIN:
+    FLAG: False
+    NET_G: 'pretrained_models/bird_netG_epoch_700.pth'
+    B_NET_D: False
+    BATCH_SIZE: 10
+    NET_E: 'pretrained_models/bird_text_encoder200.pth'
+    
+STYLEGAN: 'pretrained_models/bird_stylegan.pt'
+
+
+GAN:
+    DF_DIM: 32
+    GF_DIM: 64
+    Z_DIM: 100
+    R_NUM: 2
+
+TEXT:
+    EMBEDDING_DIM: 256
+    CAPTIONS_PER_IMAGE: 10
+    WORDS_NUM: 25

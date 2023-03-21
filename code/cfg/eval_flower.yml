@@ -1,0 +1,30 @@
+CONFIG_NAME: 'LFG-GAN'
+
+DATASET_NAME: 'flower'
+DATA_DIR: 'datasets/flower'
+GPU_ID: 0
+WORKERS: 4
+
+
+TREE:
+    BRANCH_NUM: 3
+
+TRAIN:
+    FLAG: False
+    NET_G: 'pretrained_models/flower_netG_epoch_325.pth'
+    B_NET_D: False
+    BATCH_SIZE: 10
+    NET_E: 'pretrained_models/flower_text_encoder550.pth'
+
+STYLEGAN: 'pretrained_models/flower_stylegan.pt'
+
+
+GAN:
+    DF_DIM: 32
+    GF_DIM: 64
+    Z_DIM: 100
+    R_NUM: 2
+
+TEXT:
+    EMBEDDING_DIM: 256
+    CAPTIONS_PER_IMAGE: 10
