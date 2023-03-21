@@ -2,7 +2,7 @@
 
 This is the source code of our TOMM 2023 paper "LFR-GAN: Local Feature Refinement based Generative Adversarial Network for Text-to-Image Generation". Please cite the following paper if you use our code.
 
-Zijun Deng, Xiangteng He and Yuxin Peng*, Zijun Deng, Xiangteng He and Yuxin Peng*, "LFR-GAN: Local Feature Refinement based Generative Adversarial Network for Text-to-Image Generation", ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), 2023.
+Zijun Deng, Xiangteng He and Yuxin Peng*, "LFR-GAN: Local Feature Refinement based Generative Adversarial Network for Text-to-Image Generation", ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), 2023.
 
 
 # Dependencies
